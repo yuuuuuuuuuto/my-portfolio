@@ -8,8 +8,97 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
   </head>
+  <h3 class="top-menu"></h3>
+  <ul class="top-option">
+    <a href="#jump1"><li class="top-name">自己紹介</li></a>
+    <a href="#jump2"><li class="top-name">趣味</li></a>
+  </ul>
+  <div class="out-header">
+    <header>
+      <p class="title">Yuto Ishiii<br />15th WebExpert</p>
+      <image src="./image/top.jpg" id="top-image"></image>
+    </header>
+  </div>
+
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <div class="whole">
+      　
+      <div class="whole-container">
+        　
+        <p class="head" id="jump1">自己紹介</p>
+        <section class="section">
+          <div class="container">
+            <div class="prev"></div>
+            <div class="sliderbox">
+              <ul class="sliderlist">
+                <li class="sliderlist__item">
+                  <image
+                    src="image/introduction.jpg"
+                    class="event-image"
+                  ></image>
+                </li>
+                <li class="sliderlist__item">
+                  <image src="image/act1.jpg" class="event-image"></image>
+                </li>
+                <li class="sliderlist__item">
+                  <image src="image/zemi.jpg" class="event-image"></image>
+                </li>
+              </ul>
+            </div>
+            <div class="next"></div>
+          </div>
+
+          <p class="first-name">
+            <br />
+            <br />
+            名前: 石井悠人
+            <br />
+            <br />
+            　　　大学:立教大学（法学部）
+            <br />
+            <br />
+            サークル：学生国際協力団体（SIVIO）
+            <br />
+            <br />
+            ゼミ：「国際仲裁とネゴシエーション」
+          </p>
+        </section>
+        <p class="second-head" id="jump2">趣味</p>
+        <section class="section">
+          <div class="counter">
+            <p id="players">FC東京 選手紹介</p>
+            <br />
+            <image src="./image/FcTokyoLogo.jpg" id="event-image"></image>
+            <br />
+            <br />
+            <button id="button">背番号カウンター</button>
+            <h2 id="display">0</h2>
+          </div>
+
+          <p class="name">
+            <br />
+            <br />
+            <br />
+            ・映画鑑賞 🎥
+            <br />
+            <br />
+            ・ サッカー観戦 ⚽
+            <br />
+            <br />
+            ・サマースポーツ 🏊
+          </p>
+        </section>
+        <p class="timer">~WebExpertコースが終了するまで~</p>
+      </div>
+      <div id="countdownArea" class="countdown">
+        <span id="countdown-day"></span>日 <span id="countdown-hour"></span>時間
+        <span id="countdown-min"></span>分 <span id="countdown-sec"></span>秒
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
+
+  <footer>
+    <small>© 2022 yutoishiii</small>
+  </footer>
 </html>
